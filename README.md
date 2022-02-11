@@ -81,7 +81,7 @@ A voting classifier and Boosting techniques will be used to determine the accura
 
 ### What outcomes do you intend to achieve (better understanding of problems, tools to help solve problems, predictive analytics with practicle applications, etc)?
 
-We plan on providing Web interative application using python Dash, Django or Flask for patients and medical professionals which helps them to determine best suitable vacination based on their health records to reduces the life threatening incidents to decide on their vaccine immunization. 
+We plan on providing Web interative application using python Dash, Django or Flask for patients and medical professionals which helps them to determine best suitable vacination based on their health records to reduce the life threatening incidents to decide on their vaccine immunization. 
 
 ## Reference 
 [1]. https://www.cdc.gov/coronavirus/2019-ncov/vaccines/safety/adverse-events.html
