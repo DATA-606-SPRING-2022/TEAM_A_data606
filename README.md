@@ -93,7 +93,7 @@ Classification based on common symptoms and patient information to anticipate th
 
 ### Team Roles and Responsibilities
 
-**Chetan B Desai (Captain)**
+**Chetan B Desai (Captain)** ***: Project Manager
 
 ◈ Data Cleaning Clean Textual data using Natural processing Language
 
@@ -101,7 +101,7 @@ Classification based on common symptoms and patient information to anticipate th
 
 ◈ Clustering : K Means 
 
-**Sharath K Srinivas**
+**Sharath K Srinivas** ***: Deliverable Manager
 
 ◈ Exploratory data analysis
 
@@ -111,13 +111,17 @@ Classification based on common symptoms and patient information to anticipate th
 
 ◈ Clusturing Interpretation 
 
-**Saideep Reddy**
+**Saideep Reddy** ***: Reference Manager and Project Editor
 
 ◈ Logistic Regression and Decision tree
 
 ◈ Model Comparison
 
 ◈ User Interface using plotly or flask
+
+#### Weekly Meetings
+
+Along with all the task assigned above we also sceduled a weekly meeting on Tuesdays, Fridays and Sundays from 11:00 Am to 2:00 PM to discuss the staus of the project and to resolve any issues regarding the same. 
 
 ## Reference 
 
