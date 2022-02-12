@@ -93,7 +93,7 @@ Classification based on common symptoms and patient information to anticipate th
 
 ### Team Roles and Responsibilities
 
-**Chetan B Desai (Captain)** ***: Project Manager
+**Chetan B Desai (Captain)** ***: Project Manager***
 
 ◈ Data Cleaning Clean Textual data using Natural processing Language
 
@@ -101,7 +101,7 @@ Classification based on common symptoms and patient information to anticipate th
 
 ◈ Clustering : K Means 
 
-**Sharath K Srinivas** ***: Deliverable Manager
+**Sharath K Srinivas** ***: Deliverable Manager***
 
 ◈ Exploratory data analysis
 
@@ -111,7 +111,7 @@ Classification based on common symptoms and patient information to anticipate th
 
 ◈ Clusturing Interpretation 
 
-**Saideep Reddy** ***: Reference Manager and Project Editor
+**Saideep Reddy** ***: Reference Manager and Project Editor***
 
 ◈ Logistic Regression and Decision tree
 
