@@ -55,6 +55,10 @@ We have select below vaccine as part of our project :
 3. HEP (HEPATITIS B VACCINE)
 4. FLU (INFLUENZA)
 
+For example below chart shows the symtoms of the COVID-19 Vaccine.
+
+![download](https://user-images.githubusercontent.com/60420184/153725919-9f7d5db6-34fc-464b-b94d-18d945b6d775.png)
+
 ### What will be your unit of analysis (for example, patient, organization, or country)? Roughly how many units (observations) do you expect to analyze?
 
 Unit of anlysis for our project will be patients, Clinical healthcare Professionals and vaccine manufactures 
@@ -72,18 +76,55 @@ We will be using Classification methods such as
 3. Decision tree
 4. K-nearest neighbor
 5. Logistic Regression. 
+6. Multi-layer Perceptron classifier
 
 For Clustring methods adverse event we will use K-Means.
 
 ### How do you plan to develop/apply ML and how you evaluate/compare the performance of the models?
 
 A voting classifier and Boosting techniques will be used to determine the accuracy of all the classifiers. We will be using hyper-parameter to tune the model.
+Across the many types of learning, supervised and unsupervised, general measures have been created. We offer two different techniques in our project that attempt to gain a better knowledge of the vaccine reactions and to perform a threat-risk categorization task across patients based on certain criteria. Each technique evaluation was completed individually. To assess the performance of the trained models in each of our approaches, we employed machine learning measures that are widely used.
 
 ### What outcomes do you intend to achieve (better understanding of problems, tools to help solve problems, predictive analytics with practicle applications, etc)?
 
 We plan on providing Web interative application using python Dash, Django or Flask for patients and medical professionals which helps them to determine best suitable vacination based on their health records to reduce the life threatening incidents to decide on their vaccine immunization. 
+The goal of this Project is to group various vaccination adverse events. The project's goal is to first gain a thorough understanding of the most common types of adverse reactions, and then to determine suitable manufacturer of a particular vaccine which has least side effects based on their medical history, allergies, gender and age.
+Classification based on common symptoms and patient information to anticipate the need for urgent care. Clustering (unsupervised machine learning) is used to segment individuals based on undesirable reactions.
+
+### Team Roles and Responsibilities
+
+**Chetan B Desai (Captain)** ***: Project Manager***
+
+◈ Data Cleaning Clean Textual data using Natural processing Language
+
+◈ Classification: SVM and K-nearest neighbor
+
+◈ Clustering : K Means 
+
+**Sharath K Srinivas** ***: Deliverable Manager***
+
+◈ Exploratory data analysis
+
+◈ Classification: Multi-layer Perceptron classifier and Random forest
+
+◈ Clean Textual data using Natural processing Language
+
+◈ Clusturing Interpretation 
+
+**Saideep Reddy** ***: Reference Manager and Project Editor***
+
+◈ Logistic Regression and Decision tree
+
+◈ Model Comparison
+
+◈ User Interface using plotly or flask
+
+#### Weekly Meetings
+
+Along with all the task assigned above we also sceduled a weekly meeting on Tuesdays, Fridays and Sundays from 11:00 Am to 2:00 PM to discuss the staus of the project and to resolve any issues regarding the same. 
 
 ## Reference 
+
 [1]. https://www.cdc.gov/coronavirus/2019-ncov/vaccines/safety/adverse-events.html
 
 [2]. https://pubmed.ncbi.nlm.nih.gov/15071280/
