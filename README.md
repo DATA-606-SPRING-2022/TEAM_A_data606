@@ -145,6 +145,7 @@ Observations from Phase 01 EDA v1.1
 VAERS_ID    340800
 Symptoms    227114
 
+◈ There were 1819777 unique symptoms observed for Covid.
 
 ◈ We plot the word cloud of the top 25 symptoms based on their counts.
 
