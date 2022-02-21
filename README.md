@@ -1,4 +1,5 @@
-# Capstone Data Science 690 (Draft Proposal)
+
+# Adverse Reaction of Vaccination : Side Effects Clustering and Risk Prediction methods
 
 Proposal By :
 
@@ -7,8 +8,6 @@ Sharath Srinivas
 Chetan B Desai
 
 Saideep Malgireddy
-
-# Adverse Reaction of Vaccination : Side Effects Clustering and Risk Prediction methods
 
 ![images](https://user-images.githubusercontent.com/60420184/153628674-3a71f712-4f3c-4055-9570-c4a0b5329312.jpg)
 
@@ -128,4 +127,30 @@ Along with all the task assigned above we also sceduled a weekly meeting on Tues
 [1]. https://www.cdc.gov/coronavirus/2019-ncov/vaccines/safety/adverse-events.html
 
 [2]. https://pubmed.ncbi.nlm.nih.gov/15071280/
+
+
+
+
+Observations from Phase 01 EDA v1.1
+
+◈ After combining all the dataset from the year 1990 to 2022 we derived three different csv files with the names df_data, df_symp, df_vax with enteries of 451105, 695132, 506017 respectively.
+
+◈ We started working with three vaccination data as for our initial EDA ie (COVID, MMR, HEPATITIS)
+
+◈ As a part of cleaning we did sanity checks on the data found few of the columns had more than 50% of null data we got rid of the rows and also checked of duplicacy of the data in the table and saved the cleaned file .
+
+◈ In the df_symp many VAERDS had more than five symptoms, we combined all the symptoms into a single column to help get better understanding about the data.
+                                                                        
+◈ For Covid alone it had unique elements of
+VAERS_ID    340800
+Symptoms    227114
+
+◈ There were 1819777 unique symptoms observed for Covid.
+
+◈ We plot the word cloud of the top 25 symptoms based on their counts.
+
+◈ We plot the histograms on the count of symptoms and the number of cases.
+
+◈ We carried the same operations for other vaccines such as MMR and HEPATITIS too.
+
 
