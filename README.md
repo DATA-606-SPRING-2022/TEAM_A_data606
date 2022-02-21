@@ -1,4 +1,5 @@
-# Capstone Data Science 690 (Draft Proposal)
+
+# Adverse Reaction of Vaccination : Side Effects Clustering and Risk Prediction methods
 
 Proposal By :
 
@@ -7,8 +8,6 @@ Sharath Srinivas
 Chetan B Desai
 
 Saideep Malgireddy
-
-# Adverse Reaction of Vaccination : Side Effects Clustering and Risk Prediction methods
 
 ![images](https://user-images.githubusercontent.com/60420184/153628674-3a71f712-4f3c-4055-9570-c4a0b5329312.jpg)
 
