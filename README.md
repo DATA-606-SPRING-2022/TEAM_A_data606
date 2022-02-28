@@ -26,8 +26,8 @@ Anyone who has received a vaccine and had an adverse reaction should file a VAER
 The goal of this Project is to group various vaccination adverse events. The project's goal is to first gain a thorough understanding of the most common types of adverse reactions, and then to determine suitable manufacturer of a particular vaccine which has least side effects based on their medical history, allergies, gender and age. Classification based on common symptoms and patient information to anticipate the need for urgent care. Clustering (unsupervised machine learning) is used to segment individuals based on undesirable reactions.We plan on providing Web interative application using python Dash, Django or Flask for patients and medical professionals which helps them to determine best suitable vacination based on their health records to reduce the life threatening incidents to decide on their vaccine immunization. 
 
 ## Data Preprocessing
-Taking care of Missing values
-Taking care of Categorical Features
+Taking care of Missing values, 
+Taking care of Categorical Features, 
 Normalization of data set
 
 ## EDA(Exploratory Data Analysis)
