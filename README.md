@@ -11,6 +11,24 @@ Saideep Malgireddy
 
 ![images](https://user-images.githubusercontent.com/60420184/153628674-3a71f712-4f3c-4055-9570-c4a0b5329312.jpg)
 
+
+## Introduction:
+
+## Background:
+
+
+## Goals:
+
+
+## Data Preprocessing:
+
+
+## EDA(Exploratory Data Analysis):
+
+
+
+
+
 ### What is your issue of interest (provide sufficient background information)?
 
 There are no vaccine, drug or medical devices which are completely free from the side effects. Vaccine protects many people in Fighting the pandemic like Covid-19. So Its important for any healthcare proffesionals or End users of Vaccine must be aware of the side effects and to prevent any life threathening situtaions.
