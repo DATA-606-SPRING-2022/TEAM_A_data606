@@ -12,18 +12,19 @@ Saideep Malgireddy
 ![images](https://user-images.githubusercontent.com/60420184/153628674-3a71f712-4f3c-4055-9570-c4a0b5329312.jpg)
 
 
-## Introduction:
-
-## Background:
+## Introduction
 
 
-## Goals:
+## Background
 
 
-## Data Preprocessing:
+## Goals
 
 
-## EDA(Exploratory Data Analysis):
+## Data Preprocessing
+
+
+## EDA(Exploratory Data Analysis)
 
 
 
