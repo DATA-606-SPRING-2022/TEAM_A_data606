@@ -106,4 +106,4 @@ Along with all the task assigned above we also sceduled a weekly meeting on Tues
 [2]. https://pubmed.ncbi.nlm.nih.gov/15071280/
 
 
-
+youtube vedio link for EDA first phase: https://youtu.be/VX2x8jXAEHY
