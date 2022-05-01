@@ -9,7 +9,13 @@ Chetan B Desai
 
 Saideep Malgireddy
 
-![images](https://user-images.githubusercontent.com/60420184/153628674-3a71f712-4f3c-4055-9570-c4a0b5329312.jpg)
+![what-are-adverse-events-and-emergency-use-authorisation-1600](https://user-images.githubusercontent.com/11175353/166166119-5704c59e-bce4-4e34-9d79-ec9a4001cc07.png)
+
+
+## Abstract
+
+An adverse event (AE) is a poor or damaging outcome that occurs after a patient receives medical care or therapy. The goal of this study is to develop a model for identifying serious and non-serious AE. Duplicates were deleted, null values were imputed or dropped, and the target column 'serious' was formed in the data cleaning section. Age, Patient Gender, Symptom Text, Patient Died, Patient Life Threatening, Hospitalization, Stay in Hospital, Patient Disability, Recovered status, Other Medication, Current Illness, Patient History, Patient Birth defect, Patient Allergies, and Vaccine Manufacturer were Selected via EDA, to predict the patient's seriousness. 
+
 
 
 ## Introduction
@@ -19,6 +25,7 @@ Anyone who has received a vaccine and had an adverse reaction should file a VAER
 
 
 ## Background
+
 
 
 ## Goals
