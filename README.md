@@ -83,7 +83,42 @@ We have described EDA for 1)  COVID19 (COVID19 VACCINE) Here similary we carried
 10) PLot of Age category vs Sex with serious and non serious
  ![Screenshot 2022-05-01 075237](https://user-images.githubusercontent.com/11175353/166147697-cb1c3416-fc9c-454e-b9d3-9b3ca85c9b14.png)
  
- And then Explored the other vaccine data in similary ways.
+ And then Explored the other vaccine data in similary ways. We created the cleaned csv file with names "covid_ml_clean.csv", "flu_ml_clean","varzos_ml_clean","hep_ml_clean" to consider for model building in the next phase.
+ 
+ 
+ 
+ 
+ #### Machine Learning Models
+ 
+ We Have described the steps for COVID vaccine follow similarly for other vaccines as well.
+ 
+ 1) Plotting the correlation plot of the features
+
+ ![download (4)](https://user-images.githubusercontent.com/11175353/166149365-36e5aebd-0906-40b9-b903-a4bc164b4303.png)
+ 
+2) Used the sklearns train test split for splitting and training the cleaned data.
+3) We implemented a pipeline with the alogirthms such as Logistic Regression, Naive Bayes, Random Forest, AdaBoostClassifier, SVM, Gradient Boosting, along with the gridsearch and tfidf, CountVectorizer for vectorization. To check which algorithm gives the best result on our current data.
+4) For example the confusion matrix for serious and no serious features where plotted like the images shown here for the FLUVACCINE.
+Vectorizer being "CountVectorizer"
+
+![download (1)](https://user-images.githubusercontent.com/11175353/166149674-7f775819-875d-47cc-b517-fda1ffd38ae8.png)
+
+Vectorizer being " TfidfVectorizer"
+
+![download](https://user-images.githubusercontent.com/11175353/166149675-a9ec72f6-5eb9-4a93-8f93-9f3f6c0713da.png)
+
+5) Then we choosed AdaBoost to be our final model since it gave the promosing results we stored it in a file named ADABoostFinalmodel for all the vaccine data. 
+   We also plotting the ROC curve one such example is for COVID applying Ada Boost Model here:
+   ![download (3)](https://user-images.githubusercontent.com/11175353/166150010-f7e8a36e-954e-44d3-9117-b8339fbe8bf4.png)
+    The model details are saved in a separate covid_ada_new_model.sav, hep_ada_new_model.sav using pickle dump, etc which will be used for predictions and all the web application for real time data.
+    Train score (Accuracy): 0.988, Test score (Accuracy): 0.946
+Recall: 0.622, F1 score (test): 0.701, Specificity: 0.983, Precision: 0.803
+
+6) Next Applying the knn model on the cleaned data set , a bit of cleaning was required to replace 'None' , 'NA' 'none' values from the columns such as 'OTHER_MEDS', 'CUR_ILL','ALLERGIES','HISTORY'. Split the data into train and test with X and y respectively. 
+7) Connecting the model to the Web App with user interface which takes in User, patients or clinicians details and outputs if they have serious or non serious threat.
+
+
+
 
 
 
