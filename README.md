@@ -67,8 +67,10 @@ We have described EDA for 1)  COVID19 (COVID19 VACCINE) Here similary we carried
 1) Considering the respective vaccines data from the drive where we stored our data as a part of Preprocessing techniques.
 2) Then Describing the Data, checked for duplicate values or missing data, dropping the columns which are not required for our modelling.
 3) Converting the Date columns to the Datetype, converting sex to binary 0 for female, 1 for male, 2 for not known, applying regular expression to clean the columns such as "SYMPTOM_TEXT", "OTHER_MEDS", "HISTORY" etc.
-4) We filtered only the vaccine data which is after january 2021, we created a new column serious from serious = vaers_covid[['DIED', 'L_THREAT', 'HOSPITAL', 'X_STAY', 'DISABLE', 'BIRTH_DEFECT']].copy() and named 1 being life threatening and 0 being Life threatening.
-5) We plotted age distributions and the box plot to identify the outliers in them, we considered the age group of vaccines to be between 18 to 100,
+4) We filtered only the vaccine data which is after january 2021, we created a new column serious from serious = vaers_covid[['DIED', 'L_THREAT', 'HOSPITAL', 'X_STAY', 'DISABLE', 'BIRTH_DEFECT']].copy() and derived Seriousness coloumn 1 being Serious and 0 Non Serious.
+5) Downloaded Important Medical Events list MeDDRA a Event dictonary maintained by Upsaala.
+6) We compared Symptoms1 to Symptoms5 from our data with IME List and derive IME column with 0 and 1 values and mergerd both Serious and IME column.
+7) We plotted age distributions and the box plot to identify the outliers in them, we considered the age group of vaccines to be between 18 to 100,
 ![download (1)](https://user-images.githubusercontent.com/11175353/166147134-d5fdff80-b7b5-4967-8189-ac53ac916da5.png)
 
 6) Distribution of adverse event severity based on age.
