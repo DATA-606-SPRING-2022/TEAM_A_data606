@@ -89,6 +89,8 @@ We have described EDA for 1)  COVID19 (COVID19 VACCINE) Here similary we carried
  
  13)PLot of Age category vs Sex with Deaths and no Deaths.
    ![image](https://user-images.githubusercontent.com/11175353/166163213-595dd132-f2ba-489f-9d59-4d9b73352c2b.png)
+   
+   
  
  
  
@@ -119,8 +121,13 @@ Vectorizer being " TfidfVectorizer"
     Train score (Accuracy): 0.988, Test score (Accuracy): 0.946
 Recall: 0.622, F1 score (test): 0.701, Specificity: 0.983, Precision: 0.803
 
-6) Next Applying the knn model on the cleaned data set , a bit of cleaning was required to replace 'None' , 'NA' 'none' values from the columns such as 'OTHER_MEDS', 'CUR_ILL','ALLERGIES','HISTORY'. Split the data into train and test with X and y respectively. 
-7) Connecting the model to the Web App with user interface which takes in User, patients or clinicians details and outputs if they have serious or non serious threat.
+6) Matric Graphs for the algorithms used
+![Algorithm accuracy](https://user-images.githubusercontent.com/11175353/166165723-e9c335f2-595b-483c-add6-14435dc6b134.png)
+
+
+
+7) Next Applying the knn model on the cleaned data set , a bit of cleaning was required to replace 'None' , 'NA' 'none' values from the columns such as 'OTHER_MEDS', 'CUR_ILL','ALLERGIES','HISTORY'. Split the data into train and test with X and y respectively. 
+8) Connecting the model to the Web App with user interface which takes in User, patients or clinicians details and outputs if they have serious or non serious threat.
 
 
 
