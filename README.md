@@ -12,7 +12,7 @@ Saideep Malgireddy
 ![what-are-adverse-events-and-emergency-use-authorisation-1600](https://user-images.githubusercontent.com/60420184/166168397-f31a6db9-d7aa-4ff3-9983-f43d7d0f56c2.png)
 ## Abstract
 
-In conclusion, the model was successful in meeting the requirements from the problem statement. Our recommendation is to implement the model as a preliminary screening tool for all incoming AE reports, to get an initial seriousness classification. This would help to enable serious reports to get expedited and processed more quickly, enabling signal detection to occur more efficiently.
+In conclusion, the model was successful in meeting the requirements from the problem statement by implementing the model as a preliminary screening tool for all incoming AE reports, to get an initial seriousness classification. This would help to enable serious reports to get expedited and processed more quickly, enabling signal detection to occur more efficiently. Oue recommendation is to work for other vaccine and try to work with Health care professionals to understand more about the symptoms and predict the severity level of the patient(Mild, Moderate and Severe)
 
 
 ## Introduction
