@@ -26,9 +26,13 @@ Anyone who has received a vaccine and had an adverse reaction should file a VAER
 The goal of this Project is to group various vaccination adverse events. The project's goal is to first gain a thorough understanding of the most common types of adverse reactions, and then to determine suitable manufacturer of a particular vaccine which has least side effects based on their medical history, allergies, gender and age. Classification based on common symptoms and patient information to anticipate the need for urgent care. Clustering (unsupervised machine learning) is used to segment individuals based on undesirable reactions.We plan on providing Web interative application using python Dash, Django or Flask for patients and medical professionals which helps them to determine best suitable vacination based on their health records to reduce the life threatening incidents to decide on their vaccine immunization. 
 
 ## Data Preprocessing
+Using glob to separate VAERSDATA.CSV,VAERSVAX.CSV,VAERSSYMPTOMS.CSV files from the raw data obtained from VAERS website,
+checking the information of the dataframe to be consider,
+Storing the data back in the drive for further consideration,
 Taking care of Missing values, 
 Taking care of Categorical Features, 
-Normalization of data set
+Normalization of data set.
+
 
 ## EDA(Exploratory Data Analysis)
 
@@ -53,6 +57,26 @@ We have select below vaccine as part of our project :
 2. VARZOS (VARICELLA-ZOSTER VACCINE )
 3. HEP (HEPATITIS B VACCINE)
 4. FLU (INFLUENZA)
+
+
+
+#### Steps Carried out as a part of Exploratory Data Analysis:
+
+1) Considering the respective vaccines data from the drive where we stored our data as a part of Preprocessing techniques.
+2) Then Describing the Data, checked for duplicate values or missing data, dropping the columns which are not required for our modelling.
+3) Converting the Date columns to the Datetype, converting sex to binary 0 for female, 1 for male, 2 for not known, applying regular expression to clean the columns such as "SYMPTOM_TEXT", "OTHER_MEDS", "HISTORY" etc.
+4) We filtered only the vaccine data which is after january 2021, we created a new column serious from serious = vaers_covid[['DIED', 'L_THREAT', 'HOSPITAL', 'X_STAY', 'DISABLE', 'BIRTH_DEFECT']].copy() and named 1 being life threatening and 0 being Life threatening.
+5) We plotted age distributions and the box plot to identify the outliers in them, we considered the age group of vaccines to be between 18 to 100,
+ 
+
+
+
+
+
+
+
+
+
 
 For example below chart shows the symtoms of the Vaccine.
 
