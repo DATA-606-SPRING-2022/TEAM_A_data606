@@ -154,43 +154,6 @@ Recall: 0.622, F1 score (test): 0.701, Specificity: 0.983, Precision: 0.803
 
 
 
-### Team Roles and Responsibilities
-
-**Chetan B Desai (Captain)** ***: Project Manager***
-
-◈ Data Cleaning Clean Textual data using Natural processing Language
-
-◈ Classification: SVM and K-nearest neighbor
-
-◈ Clustering : K Means 
-
-**Sharath K Srinivas** ***: Deliverable Manager***
-
-◈ Exploratory data analysis
-
-◈ Classification: Multi-layer Perceptron classifier and Random forest
-
-◈ Clean Textual data using Natural processing Language
-
-◈ Clusturing Interpretation 
-
-**Saideep Reddy** ***: Reference Manager and Project Editor***
-
-◈ Logistic Regression and Decision tree
-
-◈ Model Comparison
-
-◈ User Interface using plotly or flask
-
-#### Weekly Meetings
-
-Along with all the task assigned above we also sceduled a weekly meeting on Tuesdays, Fridays and Sundays from 11:00 Am to 2:00 PM to discuss the staus of the project and to resolve any issues regarding the same. 
-
-## Reference 
-
-[1]. https://www.cdc.gov/coronavirus/2019-ncov/vaccines/safety/adverse-events.html
-
-[2]. https://pubmed.ncbi.nlm.nih.gov/15071280/
 
 
 youtube vedio link for EDA first phase: https://youtu.be/VX2x8jXAEHY
