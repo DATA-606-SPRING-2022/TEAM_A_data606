@@ -14,7 +14,7 @@ Saideep Malgireddy
 
 ## Abstract
 
-An adverse event (AE) is a poor or damaging outcome that occurs after a patient receives medical care or therapy. The goal of this study is to develop a model for identifying serious and non-serious AE. Duplicates were deleted, null values were imputed or dropped, and the target column 'serious' was formed in the data cleaning section. Age, Patient Gender, Symptom Text, Patient Died, Patient Life Threatening, Hospitalization, Stay in Hospital, Patient Disability, Recovered status, Other Medication, Current Illness, Patient History, Patient Birth defect, Patient Allergies, and Vaccine Manufacturer were Selected via EDA, to predict the patient's seriousness. 
+An adverse event (AE) is a poor or damaging outcome that occurs after a patient receives medical care or therapy. The goal of this study is to develop a model for identifying serious and non-serious AE. The vaccines which are considered for our project are COVID19 (COVID19 VACCINE), VARZOS (VARICELLA-ZOSTER VACCINE ),HEP (HEPATITIS B VACCINE),FLU (INFLUENZA) Duplicates were deleted, null values were imputed or dropped, and the target column 'serious' was formed in the data cleaning section. Age, Patient Gender, Symptom Text, Patient Died, Patient Life Threatening, Hospitalization, Stay in Hospital, Patient Disability, Recovered status, Other Medication, Current Illness, Patient History, Patient Birth defect, Patient Allergies, and Vaccine Manufacturer were Selected via EDA, to predict the patient's seriousness. 
 
 
 
