@@ -1,5 +1,5 @@
 
-# Adverse Reaction of Vaccination : Side Effects Clustering and Risk Prediction methods
+# Adverse Reaction of Vaccination : Risk Prediction and Side Effects Clustering
 
 Proposal By :
 
@@ -73,16 +73,16 @@ We have described EDA for 1)  COVID19 (COVID19 VACCINE) Here similary we carried
 7) We plotted age distributions and the box plot to identify the outliers in them, we considered the age group of vaccines to be between 18 to 100,
 ![download (1)](https://user-images.githubusercontent.com/11175353/166147134-d5fdff80-b7b5-4967-8189-ac53ac916da5.png)
 
-6) Distribution of adverse event severity based on age.
+8) Distribution of adverse event severity based on age.
 ![download (2)](https://user-images.githubusercontent.com/11175353/166147333-e525258e-5c10-4039-bc96-bdae3f87a80b.png)
-7) Seriousness plot of vaccines based on vaccine manufacturers
+9) Seriousness plot of vaccines based on vaccine manufacturers
 ![Screenshot 2022-05-01 075105](https://user-images.githubusercontent.com/11175353/166147139-8fc7545f-6010-4c3a-a4af-efe2dd89f66f.png)
 
-8)  Word cloud for covid vaccine in its shape.
+10)  Word cloud for covid vaccine in its shape.
 ![Screenshot 2022-05-01 075410](https://user-images.githubusercontent.com/11175353/166147143-e5caaf90-689f-416d-a468-4c114129d367.png)
-9) State wise Comparission of gender getting severe reactions after vacinated
+11) State wise Comparission of gender getting severe reactions after vacinated
 ![Screenshot 2022-05-01 075439](https://user-images.githubusercontent.com/11175353/166147144-40f016a4-a34d-45c1-8ac3-e4197cc634f2.png)
-10) PLot of Age category vs Sex with serious and non serious
+12) PLot of Age category vs Sex with serious and non serious
  ![Screenshot 2022-05-01 075237](https://user-images.githubusercontent.com/11175353/166147697-cb1c3416-fc9c-454e-b9d3-9b3ca85c9b14.png)
  
  And then Explored the other vaccine data in similary ways. We created the cleaned csv file with names "covid_ml_clean.csv", "flu_ml_clean","varzos_ml_clean","hep_ml_clean" to consider for model building in the next phase.
