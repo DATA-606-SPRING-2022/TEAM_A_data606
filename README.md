@@ -87,6 +87,9 @@ We have described EDA for 1)  COVID19 (COVID19 VACCINE) Here similary we carried
  
  And then Explored the other vaccine data in similary ways. We created the cleaned csv file with names "covid_ml_clean.csv", "flu_ml_clean","varzos_ml_clean","hep_ml_clean" to consider for model building in the next phase.
  
+ 13)PLot of Age category vs Sex with Deaths and no Deaths.
+   ![image](https://user-images.githubusercontent.com/11175353/166163213-595dd132-f2ba-489f-9d59-4d9b73352c2b.png)
+ 
  
  
  
