@@ -14,7 +14,10 @@ Saideep Malgireddy
 
 ## Abstract
 
-An adverse event (AE) is a poor or damaging outcome that occurs after a patient receives medical care or therapy. The goal of this study is to develop a model for identifying serious and non-serious AE. The vaccines which are considered for our project are COVID19 (COVID19 VACCINE), VARZOS (VARICELLA-ZOSTER VACCINE ),HEP (HEPATITIS B VACCINE),FLU (INFLUENZA) Duplicates were deleted, null values were imputed or dropped, and the target column 'serious' was formed in the data cleaning section. Age, Patient Gender, Symptom Text, Patient Died, Patient Life Threatening, Hospitalization, Stay in Hospital, Patient Disability, Recovered status, Other Medication, Current Illness, Patient History, Patient Birth defect, Patient Allergies, and Vaccine Manufacturer were Selected via EDA, to predict the patient's seriousness. 
+An adverse event (AE) is a poor or damaging outcome that occurs after a patient receives medical care or therapy. The goal of this study is to develop a model for identifying serious and non-serious AE. The vaccines which are considered for our project are COVID19 (COVID19 VACCINE), VARZOS (VARICELLA-ZOSTER VACCINE ),HEP (HEPATITIS B VACCINE),FLU (INFLUENZA) Duplicates were deleted, null values were imputed or dropped, and the target column 'serious' was formed in the data cleaning section. Age, Patient Gender, Symptom Text, Patient Died, Patient Life Threatening, Hospitalization, Stay in Hospital, Patient Disability, Recovered status, Other Medication, Current Illness, Patient History, Patient Birth defect, Patient Allergies, and Vaccine Manufacturer were Selected via EDA, to predict the patient's seriousness.
+
+We trained the model on different vaccine data separately and below are the result:
+![Results](https://user-images.githubusercontent.com/11175353/166166725-a53237ce-7c98-4168-b306-d33a83c94031.jpeg)
 
 
 
@@ -198,3 +201,5 @@ Along with all the task assigned above we also sceduled a weekly meeting on Tues
 
 
 youtube vedio link for EDA first phase: https://youtu.be/VX2x8jXAEHY
+
+Youtube vedio link for EDA Final Phase: 
