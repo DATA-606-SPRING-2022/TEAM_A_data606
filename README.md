@@ -67,6 +67,20 @@ We have select below vaccine as part of our project :
 3) Converting the Date columns to the Datetype, converting sex to binary 0 for female, 1 for male, 2 for not known, applying regular expression to clean the columns such as "SYMPTOM_TEXT", "OTHER_MEDS", "HISTORY" etc.
 4) We filtered only the vaccine data which is after january 2021, we created a new column serious from serious = vaers_covid[['DIED', 'L_THREAT', 'HOSPITAL', 'X_STAY', 'DISABLE', 'BIRTH_DEFECT']].copy() and named 1 being life threatening and 0 being Life threatening.
 5) We plotted age distributions and the box plot to identify the outliers in them, we considered the age group of vaccines to be between 18 to 100,
+![download (1)](https://user-images.githubusercontent.com/11175353/166147134-d5fdff80-b7b5-4967-8189-ac53ac916da5.png)
+6) Distribution of adverse event severity based on age.
+![download (2)](https://user-images.githubusercontent.com/11175353/166147333-e525258e-5c10-4039-bc96-bdae3f87a80b.png)
+7) Seriousness plot of vaccines based on vaccine manufacturers
+![Screenshot 2022-05-01 075105](https://user-images.githubusercontent.com/11175353/166147139-8fc7545f-6010-4c3a-a4af-efe2dd89f66f.png)
+8) Compairing the seriousness between the genders
+![Screenshot 2022-05-01 075136](https://user-images.githubusercontent.com/11175353/166147140-1fa667c7-1a4a-4bd0-8f52-35b488507fc5.png)
+9)Seriousness plot based on age category and also the gender distribution
+![Screenshot 2022-05-01 075237](https://user-images.githubusercontent.com/11175353/166147142-cfb65898-324a-41bc-9950-3b3e00cbe241.png)
+10) PLot of death vs age category for genders.
+![Screenshot 2022-05-01 075410](https://user-images.githubusercontent.com/11175353/166147143-e5caaf90-689f-416d-a468-4c114129d367.png)
+11) Word cloud for covid vaccine in its shape
+![Screenshot 2022-05-01 075439](https://user-images.githubusercontent.com/11175353/166147144-40f016a4-a34d-45c1-8ac3-e4197cc634f2.png)
+
  
 
 
@@ -78,16 +92,6 @@ We have select below vaccine as part of our project :
 
 
 
-For example below chart shows the symtoms of the Vaccine.
-
-
-![Fig9](https://user-images.githubusercontent.com/60420184/155924904-0dfca07f-30ea-4d3b-8ac1-f1ff78122dae.png)
-
-![Fig 12](https://user-images.githubusercontent.com/60420184/155924909-c8f5b8b8-b35e-44e2-bde5-835c69f5e59e.png)
-
-![Fig 13](https://user-images.githubusercontent.com/60420184/155924917-fcb5dc9e-8726-47b0-9411-732bccc69ed5.png)
-
-![Fig14](https://user-images.githubusercontent.com/60420184/155924926-cf93a34a-03ce-45a8-9026-bd183e5a8347.png)
 
 
 
