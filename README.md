@@ -9,7 +9,10 @@ Chetan B Desai
 
 Saideep Malgireddy
 
-![images](https://user-images.githubusercontent.com/60420184/153628674-3a71f712-4f3c-4055-9570-c4a0b5329312.jpg)
+![what-are-adverse-events-and-emergency-use-authorisation-1600](https://user-images.githubusercontent.com/60420184/166168397-f31a6db9-d7aa-4ff3-9983-f43d7d0f56c2.png)
+## Abstract
+
+In conclusion, the model was successful in meeting the requirements from the problem statement. Our recommendation is to implement the model as a preliminary screening tool for all incoming AE reports, to get an initial seriousness classification. This would help to enable serious reports to get expedited and processed more quickly, enabling signal detection to occur more efficiently.
 
 
 ## Introduction
