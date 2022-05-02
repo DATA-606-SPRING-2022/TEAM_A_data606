@@ -157,3 +157,4 @@ Recall: 0.622, F1 score (test): 0.701, Specificity: 0.983, Precision: 0.803
 
 
 youtube vedio link for EDA first phase: https://youtu.be/VX2x8jXAEHY
+youtube vedio for Project Capstone Final : https://youtu.be/yM4uPlgo7Xk
