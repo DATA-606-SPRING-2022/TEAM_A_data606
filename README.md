@@ -1,4 +1,5 @@
 
+
 # Adverse Reaction of Vaccination : Risk Prediction and Side Effects Clustering
 
 Proposal By :
@@ -30,12 +31,13 @@ In conclusion, the model was successful in meeting the requirements from the pro
 
 
 ## Introduction
-There are no vaccine, drug or medical devices which are completely free from the side effects. Vaccine protects many people in Fighting the pandemic like Covid-19. So Its important for any healthcare proffesionals or End users of Vaccine must be aware of the side effects and to prevent any life threathening situtaions.
+Timely adverse event reporting is essential for  signal event detection to minimize further patients receiving unsafe vaccines.The most notable event occurred in 2010 when increased incidence of fever and seizures occurred following seasonal influenza vaccines. The vaccine was withdrawn 10 days later, Incident including a prolonged febrile seizure resulting in profound disability in a previously healthy 11-month-old child.The multi-million dollar compensation decision recognized the delays in reporting and state and federal response processes that were identified in an independent enquiry.There are no vaccine, drug or medical devices which are completely free from the side effects. Vaccine protects many people in Fighting the pandemic like Covid-19. So Its important for any healthcare proffesionals or End users of Vaccine must be aware of the side effects and to prevent any life threathening situtaions.
 
 Anyone who has received a vaccine and had an adverse reaction should file a VAERS report online, even though they are unsure that the vaccine is to blame. So, This project makes use of data from the Vaccine Adverse Event Reporting System (VAERS), which was designed by the Food and Drug Administration (FDA) and the Centers for Disease Control and Prevention (CDC) to receive reports concerning vaccine-related adverse events.
 
 
 ## Background
+The U.S. Food and Drug Administration (FDA) defines an adverse drug experience as any AE associated with the use of a drug in humans, whether or not considered drug related, while the International Conference on Harmonisation (ICH) guideline ICH E2A similarly defines an AE as an untoward medical occurrence in a patient administered a pharmaceutical product, whether or not the occurrence is related to or considered to have a causal relationship with the treatment.
 
 
 
