@@ -21,9 +21,11 @@ We trained the model on different vaccine data separately and below are the resu
 A total of 5 models were evaluated - (i) Logistic Regression; (ii) Naive Bayes - Multinomal; (iii) Random Forest Classifier; (iv) Ada Boost Classifier; and (v) Support Vector Machine (SVM). Train-test split were chosen: 70/30. Modelling was done with and without Synthetic Minority Oversampling Technique (SMOTE), and the model that met the target was ADA Boost utilizing TF-IDF vectorizer with 70/30 split without SMOTE. This model yielded test accuracy of as showed below for different vaccine.
 
 
+
 ![Results](https://user-images.githubusercontent.com/11175353/166166725-a53237ce-7c98-4168-b306-d33a83c94031.jpeg)
 
 In conclusion, the model was successful in meeting the requirements from the problem statement by implementing the model as a preliminary screening tool for all incoming AE reports, to get an initial seriousness classification. This would help to enable serious reports to get expedited and processed more quickly, enabling signal detection to occur more efficiently. Oue recommendation is to work for other vaccine and try to work with Health care professionals to understand more about the symptoms and predict the severity level of the patient(Mild, Moderate and Severe).
+
 
 
 
@@ -209,3 +211,4 @@ Along with all the task assigned above we also sceduled a weekly meeting on Tues
 youtube vedio link for EDA first phase: https://youtu.be/VX2x8jXAEHY
 
 Youtube vedio link for EDA Final Phase: https://youtu.be/yM4uPlgo7Xk
+
