@@ -9,10 +9,22 @@ Chetan B Desai
 
 Saideep Malgireddy
 
-![what-are-adverse-events-and-emergency-use-authorisation-1600](https://user-images.githubusercontent.com/60420184/166168397-f31a6db9-d7aa-4ff3-9983-f43d7d0f56c2.png)
+![what-are-adverse-events-and-emergency-use-authorisation-1600](https://user-images.githubusercontent.com/11175353/166166119-5704c59e-bce4-4e34-9d79-ec9a4001cc07.png)
+
+
 ## Abstract
 
-In conclusion, the model was successful in meeting the requirements from the problem statement by implementing the model as a preliminary screening tool for all incoming AE reports, to get an initial seriousness classification. This would help to enable serious reports to get expedited and processed more quickly, enabling signal detection to occur more efficiently. Oue recommendation is to work for other vaccine and try to work with Health care professionals to understand more about the symptoms and predict the severity level of the patient(Mild, Moderate and Severe)
+An adverse event (AE) is a poor or damaging outcome that occurs after a patient receives medical care or therapy. The goal of this study is to develop a model for identifying serious and non-serious AE. The vaccines which are considered for our project are COVID19 (COVID19 VACCINE), VARZOS (VARICELLA-ZOSTER VACCINE ),HEP (HEPATITIS B VACCINE),FLU (INFLUENZA) Duplicates were deleted, null values were imputed or dropped, and the target column 'serious' was formed in the data cleaning section. Age, Patient Gender, Symptom Text, Patient Died, Patient Life Threatening, Hospitalization, Stay in Hospital, Patient Disability, Recovered status, Other Medication, Current Illness, Patient History, Patient Birth defect, Patient Allergies, and Vaccine Manufacturer were Selected via EDA, to predict the patient's seriousness.
+
+We trained the model on different vaccine data separately and below are the result:
+
+A total of 5 models were evaluated - (i) Logistic Regression; (ii) Naive Bayes - Multinomal; (iii) Random Forest Classifier; (iv) Ada Boost Classifier; and (v) Support Vector Machine (SVM). Train-test split were chosen: 70/30. Modelling was done with and without Synthetic Minority Oversampling Technique (SMOTE), and the model that met the target was ADA Boost utilizing TF-IDF vectorizer with 70/30 split without SMOTE. This model yielded test accuracy of as showed below for different vaccine.
+
+
+![Results](https://user-images.githubusercontent.com/11175353/166166725-a53237ce-7c98-4168-b306-d33a83c94031.jpeg)
+
+In conclusion, the model was successful in meeting the requirements from the problem statement by implementing the model as a preliminary screening tool for all incoming AE reports, to get an initial seriousness classification. This would help to enable serious reports to get expedited and processed more quickly, enabling signal detection to occur more efficiently. Oue recommendation is to work for other vaccine and try to work with Health care professionals to understand more about the symptoms and predict the severity level of the patient(Mild, Moderate and Severe).
+
 
 
 ## Introduction
@@ -22,6 +34,7 @@ Anyone who has received a vaccine and had an adverse reaction should file a VAER
 
 
 ## Background
+
 
 
 ## Goals
@@ -154,7 +167,45 @@ Recall: 0.622, F1 score (test): 0.701, Specificity: 0.983, Precision: 0.803
 
 
 
+### Team Roles and Responsibilities
+
+**Chetan B Desai (Captain)** ***: Project Manager***
+
+◈ Data Cleaning Clean Textual data using Natural processing Language
+
+◈ Classification: SVM and K-nearest neighbor
+
+◈ Clustering : K Means 
+
+**Sharath K Srinivas** ***: Deliverable Manager***
+
+◈ Exploratory data analysis
+
+◈ Classification: Multi-layer Perceptron classifier and Random forest
+
+◈ Clean Textual data using Natural processing Language
+
+◈ Clusturing Interpretation 
+
+**Saideep Reddy** ***: Reference Manager and Project Editor***
+
+◈ Logistic Regression and Decision tree
+
+◈ Model Comparison
+
+◈ User Interface using plotly or flask
+
+#### Weekly Meetings
+
+Along with all the task assigned above we also sceduled a weekly meeting on Tuesdays, Fridays and Sundays from 11:00 Am to 2:00 PM to discuss the staus of the project and to resolve any issues regarding the same. 
+
+## Reference 
+
+[1]. https://www.cdc.gov/coronavirus/2019-ncov/vaccines/safety/adverse-events.html
+
+[2]. https://pubmed.ncbi.nlm.nih.gov/15071280/
 
 
 youtube vedio link for EDA first phase: https://youtu.be/VX2x8jXAEHY
-youtube vedio for Project Capstone Final : https://youtu.be/yM4uPlgo7Xk
+
+Youtube vedio link for EDA Final Phase: https://youtu.be/yM4uPlgo7Xk
