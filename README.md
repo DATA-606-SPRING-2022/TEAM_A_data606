@@ -35,9 +35,11 @@ Train-test split were chosen: 70/30. Modelling was done with and without Synthet
 In conclusion, the model was successful in meeting the requirements from the problem statement by implementing the model as a preliminary screening tool for all incoming AE reports, to get an initial seriousness classification. This would help to enable serious reports to get expedited and processed more quickly, enabling signal detection to occur more efficiently. Oue recommendation is to work for other vaccine and try to work with Health care professionals to understand more about the symptoms and predict the severity level of the patient(Mild, Moderate and Severe).
 
 
-
-
 ## Introduction
+CDC received reports of clusters of anxiety-related episodes after delivery of the Janssen COVID-19 vaccine from five mass vaccination locations, all in different states, on April 7, 2021, after 5 weeks of usage under the Food and Drug Administration's (FDA) Emergency Use Authorization (EUA). CDC interviewed vaccination site staff members to acquire further information about the reported occurrences and immunization site protocols in order to further examine these cases. Four of the five locations were temporarily shut down while an investigation was conducted. Overall, 64 anxiety-related incidents were recorded from these sites for vaccines provided between April 7 and 9, including 17 instances of syncope (fainting), an anxiety-related event, among 8,624 Janssen COVID-19 vaccine recipients.
+Following up on these interviews, the CDC looked into complaints of syncope received immediately after receiving the Janssen COVID-19 vaccine to the Vaccine Adverse Event Reporting System (VAERS), the CDC and FDA-run vaccine safety monitoring program. Reports of syncopal events after influenza vaccine administration in the 2019–20 influenza season were also evaluated to compare the occurrence of these events to those reported after receiving other vaccines. VAERS received a complaint of syncope following the Janssen COVID-19 vaccine (8.2 episodes per 100,000 doses). Syncope was reported in 0.05 events per 100,000 doses after influenza vaccination, by comparison. Any immunization can result in anxiety-related reactions.
+Any immunization can result in anxiety-related reactions. It is critical that vaccination providers understand that anxiety-related adverse events may occur more frequently after receiving the Janssen COVID-19 vaccine than after receiving influenza vaccination, and that they monitor all COVID-19 vaccine recipients for at least 15 minutes after vaccine administration for any adverse reactions.
+
 An adverse event (AE) is a poor or damaging outcome that occurs after a patient receives medical care or therapy.There are no vaccine, drug or medical devices which are completely free from the side effects. Vaccine protects many people in Fighting the pandemic like Covid-19. So Its important for any healthcare proffesionals or End users of Vaccine must be aware of the side effects and to prevent any life threathening situtaions.1 million 'COVID-vaccine injuries' are reported in a CDC database. Most side effects from vaccination are mild and Serious side effects are rare, but may include seizure or life-threatening allergic reaction.
 
 Anyone who has received a vaccine and had an adverse reaction should file a VAERS report online, even though they are unsure that the vaccine is to blame. So, This project makes use of data from the Vaccine Adverse Event Reporting System (VAERS), which was designed by the Food and Drug Administration (FDA) and the Centers for Disease Control and Prevention (CDC) to receive reports concerning vaccine-related adverse events.
@@ -211,6 +213,10 @@ Web Interface :
 [5].https://plotly.com/python/
 
 [6].https://www.historyofvaccines.org/content/articles/vaccine-side-effects-and-adverse-events
+
+[7].https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6518966/
+
+[8].https://www.medscape.com/viewarticle/950781?reg=1
 
 
 ## YouTube Link
