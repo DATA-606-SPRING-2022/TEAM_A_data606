@@ -1,28 +1,34 @@
 
 
 # Adverse Reaction of Vaccination : Risk Prediction and Side Effects Clustering
+Under the guidance: **Prof. Wang, Chaojie**
 
-Proposal By :
+Presented By :
 
-Sharath Srinivas
+**Sharath Srinivas**
 
-Chetan B Desai
+**Chetan B Desai**
 
-Saideep Malgireddy
+**Saideep Malgireddy**
 
 ![what-are-adverse-events-and-emergency-use-authorisation-1600](https://user-images.githubusercontent.com/11175353/166166119-5704c59e-bce4-4e34-9d79-ec9a4001cc07.png)
 
 
 ## Abstract
 
-An adverse event (AE) is a poor or damaging outcome that occurs after a patient receives medical care or therapy. The goal of this study is to develop a model for identifying serious and non-serious AE. The vaccines which are considered for our project are COVID19 (COVID19 VACCINE), VARZOS (VARICELLA-ZOSTER VACCINE ),HEP (HEPATITIS B VACCINE),FLU (INFLUENZA) Duplicates were deleted, null values were imputed or dropped, and the target column 'serious' was formed in the data cleaning section. Age, Patient Gender, Symptom Text, Patient Died, Patient Life Threatening, Hospitalization, Stay in Hospital, Patient Disability, Recovered status, Other Medication, Current Illness, Patient History, Patient Birth defect, Patient Allergies, and Vaccine Manufacturer were Selected via EDA, to predict the patient's seriousness.
+An adverse event (AE) is a poor or damaging outcome that occurs after a patient receives medical care or therapy. The goal of this study is to develop a model for identifying serious and non-serious AE. Due to varying demographics, surroundings, and drug quality, adverse side effects of a drug may vary over time and space. It is impossible to discover all adverse effects during development. After a medicine is approved, doctors and patients record any adverse effects they encounter, which are then entered into the CDC and FDA Vaccine Adverse Event Reporting System. 
+The Vaccines which are considered for our project are COVID19 (COVID19 VACCINE), VARZOS (VARICELLA-ZOSTER VACCINE ),HEP (HEPATITIS B VACCINE),FLU (INFLUENZA) Duplicates were deleted, null values were imputed or dropped, and the target column 'serious' was formed in the data cleaning section. Age, Patient Gender, Symptom Text, Patient Died, Patient Life Threatening, Hospitalization, Stay in Hospital, Patient Disability, Recovered status, Other Medication, Current Illness, Patient History, Patient Birth defect, Patient Allergies, and Vaccine Manufacturer were Selected via EDA, to predict the patient's seriousness.
 
 We trained the model on different vaccine data separately and below are the result:
 
-A total of 5 models were evaluated - (i) Logistic Regression; (ii) Naive Bayes - Multinomal; (iii) Random Forest Classifier; (iv) Ada Boost Classifier; and (v) Support Vector Machine (SVM). Train-test split were chosen: 70/30. Modelling was done with and without Synthetic Minority Oversampling Technique (SMOTE), and the model that met the target was ADA Boost utilizing TF-IDF vectorizer with 70/30 split without SMOTE. This model yielded test accuracy of as showed below for different vaccine.
+A total of 5 models were evaluated - 
+1. Logistic Regression
+2. Naive Bayes - Multinomal
+3. Random Forest Classifier
+4. Ada Boost Classifier
+5. Support Vector Machine (SVM). 
 
-
-
+Train-test split were chosen: 70/30. Modelling was done with and without Synthetic Minority Oversampling Technique (SMOTE), and the model that met the target was ADA Boost utilizing TF-IDF vectorizer with 70/30 split without SMOTE. This model yielded test accuracy of as showed below for different vaccine.
 
 ![Results](https://user-images.githubusercontent.com/11175353/166166725-a53237ce-7c98-4168-b306-d33a83c94031.jpeg)
 
@@ -32,14 +38,13 @@ In conclusion, the model was successful in meeting the requirements from the pro
 
 
 ## Introduction
-Timely adverse event reporting is essential for  signal event detection to minimize further patients receiving unsafe vaccines.The most notable event occurred in 2010 when increased incidence of fever and seizures occurred following seasonal influenza vaccines. The vaccine was withdrawn 10 days later, Incident including a prolonged febrile seizure resulting in profound disability in a previously healthy 11-month-old child.The multi-million dollar compensation decision recognized the delays in reporting and state and federal response processes that were identified in an independent enquiry.There are no vaccine, drug or medical devices which are completely free from the side effects. Vaccine protects many people in Fighting the pandemic like Covid-19. So Its important for any healthcare proffesionals or End users of Vaccine must be aware of the side effects and to prevent any life threathening situtaions.
+An adverse event (AE) is a poor or damaging outcome that occurs after a patient receives medical care or therapy.There are no vaccine, drug or medical devices which are completely free from the side effects. Vaccine protects many people in Fighting the pandemic like Covid-19. So Its important for any healthcare proffesionals or End users of Vaccine must be aware of the side effects and to prevent any life threathening situtaions.1 million 'COVID-vaccine injuries' are reported in a CDC database. Most side effects from vaccination are mild and Serious side effects are rare, but may include seizure or life-threatening allergic reaction.
 
 Anyone who has received a vaccine and had an adverse reaction should file a VAERS report online, even though they are unsure that the vaccine is to blame. So, This project makes use of data from the Vaccine Adverse Event Reporting System (VAERS), which was designed by the Food and Drug Administration (FDA) and the Centers for Disease Control and Prevention (CDC) to receive reports concerning vaccine-related adverse events.
 
 
 ## Background
-The U.S. Food and Drug Administration (FDA) defines an adverse drug experience as any AE associated with the use of a drug in humans, whether or not considered drug related, while the International Conference on Harmonisation (ICH) guideline ICH E2A similarly defines an AE as an untoward medical occurrence in a patient administered a pharmaceutical product, whether or not the occurrence is related to or considered to have a causal relationship with the treatment.
-
+The U.S. Food and Drug Administration (FDA) defines an adverse drug experience as any AE associated with the use of a drug in humans, whether or not considered drug related, while the International Conference on Harmonisation (ICH) guideline ICH E2A similarly defines an AE as an untoward medical occurrence in a patient administered a pharmaceutical product, whether or not the occurrence is related to or considered to have a causal relationship with the treatment. Timely adverse event reporting is essential for  signal event detection to minimize further patients receiving unsafe vaccines.The most notable event occurred in 2010 when increased incidence of fever and seizures occurred following seasonal influenza vaccines. The vaccine was withdrawn 10 days later, Incident including a prolonged febrile seizure resulting in profound disability in a previously healthy 11-month-old child.The multi-million dollar compensation decision recognized the delays in reporting and state and federal response processes that were identified in an independent enquiry. VAERS is a passive reporting system, meaning it relies on individuals to send in reports of their experiences to CDC and FDA. VAERS is not designed to determine if a vaccine caused a health problem, but is especially useful for detecting unusual or unexpected patterns of adverse event reporting that might indicate a possible safety problem with a vaccine. This way, VAERS can provide CDC and FDA with valuable information that additional work and evaluation is necessary to further assess a possible safety concern.
 
 
 ## Goals
@@ -193,44 +198,24 @@ Web Interface :
 
 
 
-**Chetan B Desai (Captain)** ***: Project Manager***
-
-◈ Data Cleaning Clean Textual data using Natural processing Language
-
-◈ Classification: SVM and K-nearest neighbor
-
-◈ Clustering : K Means 
-
-**Sharath K Srinivas** ***: Deliverable Manager***
-
-◈ Exploratory data analysis
-
-◈ Classification: Multi-layer Perceptron classifier and Random forest
-
-◈ Clean Textual data using Natural processing Language
-
-◈ Clusturing Interpretation 
-
-**Saideep Reddy** ***: Reference Manager and Project Editor***
-
-◈ Logistic Regression and Decision tree
-
-◈ Model Comparison
-
-◈ User Interface using plotly or flask
-
-#### Weekly Meetings
-
-Along with all the task assigned above we also sceduled a weekly meeting on Tuesdays, Fridays and Sundays from 11:00 Am to 2:00 PM to discuss the staus of the project and to resolve any issues regarding the same. 
-
 ## Reference 
 
 [1]. https://www.cdc.gov/coronavirus/2019-ncov/vaccines/safety/adverse-events.html
 
 [2]. https://pubmed.ncbi.nlm.nih.gov/15071280/
 
+[3].https://www.cdc.gov
 
-youtube vedio link for EDA first phase: https://youtu.be/VX2x8jXAEHY
+[4].https://www.ema.europa.eu/documents/other/meddra-important-medical-event-terms-list-version-250_en.xlsx
 
-Youtube vedio link for EDA Final Phase: https://youtu.be/yM4uPlgo7Xk
+[5].https://plotly.com/python/
+
+[6].https://www.historyofvaccines.org/content/articles/vaccine-side-effects-and-adverse-events
+
+
+## YouTube Link
+<a href="https://youtu.be/VX2x8jXAEHY">**Phase 1**</a> 
+
+<a href="https://youtu.be/yM4uPlgo7Xk">**Final Phase**</a> 
+
 
