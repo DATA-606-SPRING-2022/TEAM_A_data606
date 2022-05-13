@@ -23,6 +23,7 @@ A total of 5 models were evaluated - (i) Logistic Regression; (ii) Naive Bayes -
 
 
 
+
 ![Results](https://user-images.githubusercontent.com/11175353/166166725-a53237ce-7c98-4168-b306-d33a83c94031.jpeg)
 
 In conclusion, the model was successful in meeting the requirements from the problem statement by implementing the model as a preliminary screening tool for all incoming AE reports, to get an initial seriousness classification. This would help to enable serious reports to get expedited and processed more quickly, enabling signal detection to occur more efficiently. Oue recommendation is to work for other vaccine and try to work with Health care professionals to understand more about the symptoms and predict the severity level of the patient(Mild, Moderate and Severe).
@@ -147,7 +148,23 @@ Recall: 0.622, F1 score (test): 0.701, Specificity: 0.983, Precision: 0.803
 
 
 7) Next Applying the knn model on the cleaned data set , a bit of cleaning was required to replace 'None' , 'NA' 'none' values from the columns such as 'OTHER_MEDS', 'CUR_ILL','ALLERGIES','HISTORY'. Split the data into train and test with X and y respectively. 
-8) Connecting the model to the Web App with user interface which takes in User, patients or clinicians details and outputs if they have serious or non serious threat.
+8) Model Results:
+![image](https://user-images.githubusercontent.com/11175353/168337842-9ea8a9e4-4777-490f-a0fb-44972f53d547.png)
+
+9) To get the related symptoms from user input we selected KDTree model from sklearn.neighbors
+![new 02](https://user-images.githubusercontent.com/11175353/168339664-334f6a22-5be5-470f-b6c2-028e2a6fe2cc.png)
+
+
+10) Connecting the model to the Web App with user interface which takes in User, patients or clinicians details and outputs if they have serious or non serious threat.
+Web Interface :
+![new 03](https://user-images.githubusercontent.com/11175353/168339805-578854e5-abfb-4081-8eb0-007aa4cc2932.png)
+![new 04](https://user-images.githubusercontent.com/11175353/168339807-4d300878-c03c-43c7-9573-4c051c428c5a.png)
+![new 05](https://user-images.githubusercontent.com/11175353/168339810-10ddbc55-5d7b-422c-a54b-5de55d7cd07c.png)
+![new 06](https://user-images.githubusercontent.com/11175353/168339813-a5676395-ddf9-422a-adca-5c436cac63f3.png)
+
+
+
+
 
 
 
@@ -172,6 +189,9 @@ Recall: 0.622, F1 score (test): 0.701, Specificity: 0.983, Precision: 0.803
 
 
 ### Team Roles and Responsibilities
+![new 07](https://user-images.githubusercontent.com/11175353/168339953-29b81019-9da8-4da6-b0bc-4218410d3a41.png)
+
+
 
 **Chetan B Desai (Captain)** ***: Project Manager***
 
